@@ -2,7 +2,7 @@ import { Action, ActionReducer, createReducer, on } from "@ngrx/store";
 import { Decrement, Increment, Reset } from "./root-store.actions";
 import { AppState } from "./root-store.model";
 
-const initialState = {
+const initialState: AppState = {
     counter: 0
 }
 
